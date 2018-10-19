@@ -58,7 +58,7 @@ function cari($nim)
 	{
 		# code...
 		Global $conn;
-		mysqli_query($conn,"DELETE * FROM profl WHERE nim='$nim' ");
+		mysqli_query($conn,"DELETE FROM profl WHERE nim ='$nim' ");
 		
 
 	}
